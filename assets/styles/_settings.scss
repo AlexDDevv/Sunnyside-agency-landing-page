@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+$fontB: "Barlow", sans-serif;
+$fontF: "Fraunces", serif;
+
+$red: hsla(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$dDesaCyan: hsl(167, 40%, 24%);
+$dBlue: hsl(198, 62%, 26%);
+$dModeCyan: hsl(168, 34%, 41%);
+
+$vDarkDesaBlue: hsl(212, 27%, 19%);
+$vDarkGrayBlue: hsl(213, 9%, 39%);
+$dGrayBlue: hsl(232, 10%, 55%);
+$grayBlue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+h2 {
+    font-family: $fontF;
+    font-weight: 900;
+}
+p {
+    font-family: $fontB;
+    font-weight: 600;
+}

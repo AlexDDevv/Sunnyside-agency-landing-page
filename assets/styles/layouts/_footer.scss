@@ -1,0 +1,47 @@
+footer {
+    background: #90d4c6;
+    padding: 70px 30px;
+    text-align: center;
+
+    .logo-footer {
+        margin-bottom: 35px;
+
+        img {
+            width: 130px;
+        }
+    }
+    .list-footer {
+        @include center;
+        gap: 50px;
+        margin-bottom: 70px;
+
+        a {
+            text-decoration: none;
+            font-family: $fontB;
+            font-size: 1rem;
+            font-weight: 600;
+            color: $dModeCyan;
+            transition: 0.3s;
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    .list-social {
+        @include center;
+        gap: 25px;
+
+        a {
+            color: #25564bcc;
+            transition: 0.3s;
+
+            i {
+                font-size: 1.2rem;
+            }
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
